@@ -13,7 +13,7 @@ const NetPortsMode = {
 	V: 1
 };
 
-const NetPortsVersion = "2.0.3"
+const NetPortsVersion = "2.0.5"
 
 const svgModeSwitch = 
 	'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">' +
@@ -352,7 +352,7 @@ var NetPorts = L.Class.extend({
 
 			var title = E('div', { class: 'netports-title' }, [
 				E('div', { class: 'netports-copyright' },
-					E('a', { href: 'https://github.com/tano-systems/luci-app-tn-netports' },
+					E('a', { href: 'https://github.com/2018nuoyan/luci-app-tn-netports' },
 						'luci-app-tn-netports ' + NetPortsVersion)
 				),
 				E('div', { class: 'netports-buttons' }, buttons)
